@@ -18,6 +18,7 @@ The solution covers:
 The objective is to transform LinkedIn outreach data into reliable analytical datasets and business-focused dashboards.
 
 ## Project Architecture
+```text
 LinkedIn Agent
       │
       ▼
@@ -52,6 +53,7 @@ Power BI
       ├── Risk Intelligence
       ├── Campaign ROI
       └── Data Quality
+```
 
 # Technology Stack
 Python	
@@ -64,6 +66,7 @@ pytest
 
 ## Project structure
 
+```text
 linkedin-agent-analytics/
 │
 ├── .github/
@@ -72,6 +75,11 @@ linkedin-agent-analytics/
 │
 ├── part_1_evidence/
 │   └── project_ss/
+|       |── 01_linkedin_agent_connection.png
+|       ├── 02_lead_search_results.png
+|       ├── 03_linkedin_leads.png
+|       ├── 04_agent_configuration.png
+|       └── 05_agent_dashboard.png
 │
 ├── power bi/
 │   ├── linkedin_agent_analytics.pbix
@@ -103,7 +111,7 @@ linkedin-agent-analytics/
 ├── .gitignore
 │
 └── README.md
-
+```
 
 
 
